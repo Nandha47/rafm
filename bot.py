@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""
-CryptoBot — 100‑Coin Ultra‑Fast + LLM Sentiment + $1 Profit Lock + ADAPTIVE RISK
-================================================================================
-- Auto‑fetches top pairs
-- WebSocket order book & trade stream
-- LLM sentiment always visible + entry gate
-- $1 unrealised profit lock
-- Manual trade intelligence
-- Full backtest engine
-- 4‑layer quant engine, ML veto, LSTM, Kelly, circuit breakers
-- Adaptive Risk Engine: profiles selected by a composite score combining
-  ATR volatility, order‑book imbalance, candle quality, ADX, regime, session
-- ACTUAL FILL PRICES used for entry and exit → PnL matches exchange
-- ADM‑Quad V2 neural network integrated as confidence multiplier
-"""
 import os, sys, time, logging, json, threading, math, traceback, asyncio, random, re
 import numpy as np
 import pandas as pd
