@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
-"""
-Multi-Hybrid AI Crypto Trading Bot — FIXED ML TRAINING TARGET
-================================================================================
-- ML agents now train on ACTUAL trade profitability, not next-candle direction
-- BaseMLAgent safely handles empty price lists
-- All other agents unchanged
-================================================================================
-"""
+
+
 
 import os
 import sys
