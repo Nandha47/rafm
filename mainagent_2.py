@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""
-Multi-Hybrid AI Crypto Trading Bot — COMPLETE CORRECTED VERSION
-================================================================================
-- ML agents train on actual trade profitability
-- BaseMLAgent safely handles empty price lists
-- Backtest uses next bar open and intra‑bar exits
-- MetaLearner override with gate bypass
-================================================================================
-"""
-
 import os
 import sys
 import time
